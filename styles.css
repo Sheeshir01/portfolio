@@ -80,13 +80,16 @@ body {
 }
 
 #home-img img {
-    width: 45vw;
+    width: 40vw;
     padding-top: 25px;
     padding-bottom: 30px;
     /* height: 90vh; */
     /* border-radius: 60%; */
     height: 642px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 200px ;
+    border-radius: 42%;
+    padding-bottom: 65px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 #home #home-content {
@@ -112,6 +115,7 @@ body {
     color: rgb(254, 231, 21);
     font-family: "rubik doodle shadow", cursive;
     font-weight: bolder;
+    letter-spacing: 4px;
 }
 
 #home .lnam{
@@ -124,6 +128,7 @@ body {
     color: rgb(254, 231, 21);
     font-family: "rubik doodle shadow", cursive;
     font-weight: bolder;
+    letter-spacing: 4px;
 }
 
 #home .card1{
@@ -149,20 +154,33 @@ body{
     font-size: 12px;
     margin: auto;
 }
+
 h1{
-    font-size: 3em;
+    font-size: 36px;
     letter-spacing: .6em;
     padding-top: 1em;
     padding-bottom: 1em;
+    color: rgb(16, 24, 32);
 }
+
+#desin{
+    font-size: 24px;
+    color:rgb(16, 24, 32);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 h2{
-    font-size: 1.5em;
-    padding-bottom: 1em;
+    font-size: 24px;
+    padding-bottom: 2px;
 }
-h3{
-    font-size: 1em;
-    padding-bottom: 1em; 
-}
+.sub{
+    font-size: 24px;
+    padding-bottom: 2px;
+    font-weight: 800;
+    color:rgb(16, 24, 32);
+} 
+
 main{
     display:grid;
     grid-template-columns: 40% 60%;
@@ -176,22 +194,29 @@ section{
     margin: auto 1em 4em 2em;
 }
 i{
-    margin-right: .5em;
+    margin-right: 4px;
+    color:rgb(16, 24, 32);
+    font-size: 18px;
+}
+.cont{
+    font-size: 18px;
+    color: rgb(16, 24, 32);
+    margin-left: 1px;
 }
 p{
     margin: .2em auto;
 }
 hr{
     border: none;
-    background-color: lightgray;
-    height: 1px;
+    background-color: rgb(16, 24, 32);
+    height: 2px;
 }
 h1,h2,h3{
     font-weight: 100;
     margin-bottom: 0;
 }
 #mainLeft{
-    border-right: 1px solid lightgray;
+    border-right: 2px solid rgb(16, 24, 32);
 }
 
 #container3{
@@ -199,6 +224,41 @@ h1,h2,h3{
     width: 100%;
     background-color: rgb(16, 24, 32);
 }
+
+#Hob{
+    color: white;
+    font-size: 48px;
+    padding-left: 35px;
+    padding-top: 60px;
+}
+
+#hob-con{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    padding-left: 25px;
+    color: white;
+    font-size: 20px;
+}
+
+#HCLEFT{
+    align-self: center;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#HCLEFT > ul > li{
+    padding-top: 30px;
+}
+
+#HCRIGHT{
+    align-self: center;
+    padding-top: 20px;
+}
+
+#HCRIGHT > ul > li{
+    padding-top: 30px;
+}
+
 
 #con{
     height: 70vh;
